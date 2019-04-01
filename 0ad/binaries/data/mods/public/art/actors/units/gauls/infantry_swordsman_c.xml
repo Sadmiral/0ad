@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_swordsman_shield_ready.xml">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/celt_hex.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/csword.xml" attachpoint="weapon_R"/>
+        <prop actor="props/temp/l_sheath.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/capes/swordsman_shield_ready_celt.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Celtic Foret Helmet">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_foret.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Classic Mihovo">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_mihovo.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Port">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_port.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="chainmail-1">
+      <textures>
+        <texture file="skeletal/celt_chain_01.png" name="baseTex"/>
+        <texture file="skeletal/celt_chain_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax-3">
+      <textures>
+        <texture file="skeletal/celt_linothorax_03.png" name="baseTex"/>
+        <texture file="skeletal/celt_linothorax_03_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax-3a">
+      <textures>
+        <texture file="skeletal/celt_linothorax_03.png" name="baseTex"/>
+        <texture file="skeletal/celt_linothorax_03_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax-3b">
+      <textures>
+        <texture file="skeletal/celt_linothorax_03_b.png" name="baseTex"/>
+        <texture file="skeletal/celt_linothorax_03_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax-3c">
+      <textures>
+        <texture file="skeletal/celt_linothorax_03_c.png" name="baseTex"/>
+        <texture file="skeletal/celt_linothorax_03_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="linothorax-3d">
+      <textures>
+        <texture file="skeletal/celt_linothorax_03_d.png" name="baseTex"/>
+        <texture file="skeletal/celt_linothorax_03_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/capes/swordsman_shield_ready_celt.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

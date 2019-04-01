@@ -1,0 +1,16 @@
+{
+	"Title": "Special Credits",
+	"Content": [
+	{
+		"Title": "Thanks to:",
+		"List": [
+			{"nick": "Sadmiral", "name": "Sami Arho"},
+			{"nick": "Maddawg", "name": "Saku Arho"},
+			{"nick": "Sandbitch", "name": "Elmer Häyrynen"}
+		]
+	},
+	{
+		"Title": "No historians were harmed during the development of this project."
+	}
+	]
+}
